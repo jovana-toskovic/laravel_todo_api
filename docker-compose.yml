@@ -30,8 +30,7 @@ services:
     networks:
       - project-net
     volumes:
-      - ./.env:/app/.env
-      - ./storage:/app/storage # REMEMBER! "chmod 777" required for storage path!
+        - .:/app
     links:
       - "project-db:project-db"
 

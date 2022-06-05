@@ -1,0 +1,35 @@
+2022-06-05 11:46:09,680 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/nginx.conf" during parsing
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/queue.conf" during parsing
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-06-05 11:46:09,680 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-06-05 11:46:09,683 INFO RPC interface 'supervisor' initialized
+2022-06-05 11:46:09,683 INFO supervisord started with pid 64
+2022-06-05 11:46:10,687 INFO spawned: 'syslogd' with pid 65
+2022-06-05 11:46:10,691 INFO spawned: 'nginxd' with pid 66
+2022-06-05 11:46:10,694 INFO spawned: 'php-fpmd' with pid 67
+2022-06-05 11:46:10,695 INFO spawned: 'crond' with pid 68
+2022-06-05 11:46:10,696 INFO spawned: 'queue-worker_00' with pid 69
+2022-06-05 11:46:10,698 INFO spawned: 'queue-worker_01' with pid 70
+2022-06-05 11:46:10,699 INFO spawned: 'queue-worker_02' with pid 73
+2022-06-05 11:46:10,701 INFO spawned: 'queue-worker_03' with pid 75
+2022-06-05 11:46:10,702 INFO spawned: 'queue-worker_04' with pid 79
+2022-06-05 11:46:10,704 INFO spawned: 'queue-worker_05' with pid 84
+2022-06-05 11:46:10,706 INFO spawned: 'queue-worker_06' with pid 92
+2022-06-05 11:46:10,707 INFO spawned: 'queue-worker_07' with pid 93
+2022-06-05 11:46:10,708 INFO success: nginxd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 11:46:10,709 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 11:46:10,709 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 11:46:11,838 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,838 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,838 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,838 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,839 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,839 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,839 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,839 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 11:46:11,839 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
