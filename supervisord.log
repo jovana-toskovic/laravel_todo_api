@@ -33,3 +33,97 @@
 2022-06-05 11:46:11,839 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2022-06-05 11:46:11,839 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2022-06-05 11:46:11,839 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:11,523 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-05 12:46:11,523 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-05 12:46:11,523 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-05 12:46:11,523 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-05 12:46:11,556 INFO spawned: 'queue-worker_01' with pid 182
+2022-06-05 12:46:11,560 INFO spawned: 'queue-worker_03' with pid 183
+2022-06-05 12:46:11,561 INFO spawned: 'queue-worker_05' with pid 184
+2022-06-05 12:46:11,563 INFO spawned: 'queue-worker_06' with pid 185
+2022-06-05 12:46:11,563 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-05 12:46:11,563 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-05 12:46:11,564 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-05 12:46:11,565 INFO spawned: 'queue-worker_00' with pid 186
+2022-06-05 12:46:11,567 INFO spawned: 'queue-worker_02' with pid 187
+2022-06-05 12:46:11,569 INFO spawned: 'queue-worker_04' with pid 188
+2022-06-05 12:46:11,569 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-05 12:46:12,571 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:12,571 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:12,572 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:12,572 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:12,572 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:12,572 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:12,572 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 12:46:12,575 INFO spawned: 'queue-worker_07' with pid 231
+2022-06-05 12:46:13,578 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:16,937 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/nginx.conf" during parsing
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/queue.conf" during parsing
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-06-05 13:36:16,937 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-06-05 13:36:17,246 INFO RPC interface 'supervisor' initialized
+2022-06-05 13:36:17,247 INFO supervisord started with pid 62
+2022-06-05 13:36:18,251 INFO spawned: 'syslogd' with pid 63
+2022-06-05 13:36:18,254 INFO spawned: 'nginxd' with pid 64
+2022-06-05 13:36:18,255 INFO spawned: 'php-fpmd' with pid 65
+2022-06-05 13:36:18,256 INFO spawned: 'crond' with pid 66
+2022-06-05 13:36:18,258 INFO spawned: 'queue-worker_00' with pid 69
+2022-06-05 13:36:18,259 INFO spawned: 'queue-worker_01' with pid 70
+2022-06-05 13:36:18,261 INFO spawned: 'queue-worker_02' with pid 73
+2022-06-05 13:36:18,262 INFO spawned: 'queue-worker_03' with pid 82
+2022-06-05 13:36:18,264 INFO spawned: 'queue-worker_04' with pid 84
+2022-06-05 13:36:18,266 INFO spawned: 'queue-worker_05' with pid 85
+2022-06-05 13:36:18,268 INFO spawned: 'queue-worker_06' with pid 86
+2022-06-05 13:36:18,270 INFO spawned: 'queue-worker_07' with pid 87
+2022-06-05 13:36:18,273 INFO success: nginxd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 13:36:18,273 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 13:36:18,273 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 13:36:19,383 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,383 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,383 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,383 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,384 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,384 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,384 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,384 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:36:19,384 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:50,062 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/nginx.conf" during parsing
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/queue.conf" during parsing
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-06-05 13:44:50,062 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-06-05 13:44:50,366 INFO RPC interface 'supervisor' initialized
+2022-06-05 13:44:50,367 INFO supervisord started with pid 60
+2022-06-05 13:44:51,370 INFO spawned: 'syslogd' with pid 61
+2022-06-05 13:44:51,373 INFO spawned: 'nginxd' with pid 62
+2022-06-05 13:44:51,376 INFO spawned: 'php-fpmd' with pid 63
+2022-06-05 13:44:51,377 INFO spawned: 'crond' with pid 64
+2022-06-05 13:44:51,378 INFO spawned: 'queue-worker_00' with pid 67
+2022-06-05 13:44:51,380 INFO spawned: 'queue-worker_01' with pid 69
+2022-06-05 13:44:51,381 INFO spawned: 'queue-worker_02' with pid 73
+2022-06-05 13:44:51,383 INFO spawned: 'queue-worker_03' with pid 75
+2022-06-05 13:44:51,385 INFO spawned: 'queue-worker_04' with pid 78
+2022-06-05 13:44:51,386 INFO spawned: 'queue-worker_05' with pid 79
+2022-06-05 13:44:51,388 INFO spawned: 'queue-worker_06' with pid 80
+2022-06-05 13:44:51,390 INFO spawned: 'queue-worker_07' with pid 81
+2022-06-05 13:44:51,391 INFO success: nginxd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 13:44:51,391 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 13:44:51,391 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-05 13:44:52,503 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,503 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,503 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,504 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,504 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,504 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,504 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,504 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 13:44:52,504 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
