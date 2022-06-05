@@ -2,10 +2,12 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
+use DateTime;
+use DateTimeZone;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Hash;
 use Laravel\Passport\HasApiTokens;
 
@@ -23,6 +25,7 @@ class User extends Authenticatable
         'email',
         'timezone',
         'password',
+        'created_at'
     ];
 
     /**
@@ -34,12 +37,28 @@ class User extends Authenticatable
         'password',
     ];
 
+    protected $dates = [
+        'created_at'
+    ];
+
     /**
      * @param $password
      */
     public function setPasswordAttribute($password)
     {
         $this->attributes['password'] = Hash::make($password);
+    }
+
+    /**
+     * @param $createdAt
+     * @return string
+     */
+    public function getCreatedAtAttribute($createdAt)
+    {
+        if($this->timezone) {
+            return (new Carbon($createdAt))->setTimezone($this->timezone)->format('Y-m-d H:i:s');
+        }
+        return $createdAt;
     }
 
 }
