@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::post('/login', [\App\Http\Controllers\Api\Auth\LoginController::class, 'login']);
 
 Route::group(['middleware' => 'auth:api'], function () {
+    Route::patch('/users/{id}', [\App\Http\Controllers\Api\UserController::class, 'update']);
+
 });
