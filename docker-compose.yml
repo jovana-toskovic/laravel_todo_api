@@ -1,0 +1,38 @@
+version: "3.3"
+
+services:
+
+  project-db:
+    image: mysql:8.0.27
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "ebvps%5ZnR%3BR5("
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "user"
+      MYSQL_DATABASE: "project"
+    networks:
+      - project-net
+    volumes:
+      - ./db:/var/lib/mysql
+
+  project-app:
+    image: app
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - "project-db"
+    ports:
+        - "80:80"
+    networks:
+      - project-net
+    volumes:
+      - ./.env:/app/.env
+      - ./storage:/app/storage # REMEMBER! "chmod 777" required for storage path!
+    links:
+      - "project-db:project-db"
+
+networks:
+  project-net:
+    driver: bridge
