@@ -61,4 +61,20 @@ class User extends Authenticatable
         return $createdAt;
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function lists(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(TodoList::class);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function tasks(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Task::class);
+    }
+
 }

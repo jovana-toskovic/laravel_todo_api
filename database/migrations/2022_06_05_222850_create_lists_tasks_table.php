@@ -15,6 +15,8 @@ class CreateListsTasksTable extends Migration
     {
         Schema::create('lists_tasks', function (Blueprint $table) {
             $table->id();
+            $table->dateTime('deadline');
+            $table->boolean('done')->default(0);
             $table->foreignId('list_id')->constrained('lists')->onDelete('cascade');
             $table->foreignId('task_id')->constrained('tasks')->onDelete('cascade');
             $table->timestamps();

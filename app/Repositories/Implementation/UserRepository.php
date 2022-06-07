@@ -9,12 +9,12 @@ use App\Repositories\Interfaces\UserRepositoryInterface;
 
 /**
  * Class UserRepository
- * @package App\Repository\User
+ * @package App\Repositories\User
  */
 class UserRepository extends BaseRepository implements UserRepositoryInterface
 {
     /**
-     * serRepository constructor.
+     * UserRepository constructor.
      * @param User $model
      */
     public function __construct(User $model)

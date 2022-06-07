@@ -343,3 +343,1083 @@
 2022-06-05 22:45:15,055 INFO exited: queue-worker_04 (exit status 0; expected)
 2022-06-05 22:45:16,056 INFO spawned: 'queue-worker_04' with pid 796
 2022-06-05 22:45:17,058 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:07,786 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-05 23:45:08,790 INFO spawned: 'queue-worker_07' with pid 828
+2022-06-05 23:45:08,791 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-05 23:45:08,804 INFO spawned: 'queue-worker_00' with pid 829
+2022-06-05 23:45:08,812 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-05 23:45:09,814 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:09,819 INFO spawned: 'queue-worker_02' with pid 842
+2022-06-05 23:45:09,819 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:09,820 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-05 23:45:10,816 INFO spawned: 'queue-worker_05' with pid 849
+2022-06-05 23:45:11,819 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:11,819 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:11,820 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-05 23:45:12,824 INFO spawned: 'queue-worker_06' with pid 856
+2022-06-05 23:45:13,838 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:13,838 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-05 23:45:14,820 INFO spawned: 'queue-worker_03' with pid 863
+2022-06-05 23:45:15,824 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:15,824 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-05 23:45:16,829 INFO spawned: 'queue-worker_01' with pid 870
+2022-06-05 23:45:17,832 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-05 23:45:17,833 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-05 23:45:18,837 INFO spawned: 'queue-worker_04' with pid 877
+2022-06-05 23:45:19,840 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:09,577 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 00:45:10,583 INFO spawned: 'queue-worker_07' with pid 889
+2022-06-06 00:45:10,584 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 00:45:10,602 INFO spawned: 'queue-worker_00' with pid 890
+2022-06-06 00:45:11,586 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:11,587 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 00:45:12,589 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:12,592 INFO spawned: 'queue-worker_02' with pid 903
+2022-06-06 00:45:12,593 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 00:45:13,583 INFO spawned: 'queue-worker_05' with pid 910
+2022-06-06 00:45:14,586 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:14,586 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:14,587 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 00:45:15,591 INFO spawned: 'queue-worker_06' with pid 917
+2022-06-06 00:45:16,604 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:16,604 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 00:45:17,609 INFO spawned: 'queue-worker_03' with pid 924
+2022-06-06 00:45:18,622 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:18,622 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 00:45:19,605 INFO spawned: 'queue-worker_01' with pid 931
+2022-06-06 00:45:20,609 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 00:45:20,609 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 00:45:21,621 INFO spawned: 'queue-worker_04' with pid 938
+2022-06-06 00:45:22,622 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:11,376 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 01:45:12,382 INFO spawned: 'queue-worker_07' with pid 950
+2022-06-06 01:45:12,383 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 01:45:13,365 INFO spawned: 'queue-worker_00' with pid 957
+2022-06-06 01:45:14,348 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:14,348 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 01:45:15,350 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:15,353 INFO spawned: 'queue-worker_02' with pid 964
+2022-06-06 01:45:15,354 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 01:45:16,355 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:16,358 INFO spawned: 'queue-worker_05' with pid 971
+2022-06-06 01:45:17,365 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:17,365 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 01:45:18,369 INFO spawned: 'queue-worker_06' with pid 978
+2022-06-06 01:45:19,379 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:19,379 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 01:45:20,380 INFO spawned: 'queue-worker_03' with pid 985
+2022-06-06 01:45:21,381 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:21,382 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 01:45:22,388 INFO spawned: 'queue-worker_01' with pid 992
+2022-06-06 01:45:23,390 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 01:45:23,390 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 01:45:24,395 INFO spawned: 'queue-worker_04' with pid 999
+2022-06-06 01:45:25,397 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:14,150 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 02:45:15,155 INFO spawned: 'queue-worker_07' with pid 1012
+2022-06-06 02:45:15,156 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 02:45:16,129 INFO spawned: 'queue-worker_00' with pid 1019
+2022-06-06 02:45:17,128 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:17,129 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:17,137 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 02:45:17,137 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 02:45:18,143 INFO spawned: 'queue-worker_02' with pid 1026
+2022-06-06 02:45:18,145 INFO spawned: 'queue-worker_05' with pid 1027
+2022-06-06 02:45:19,144 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:19,145 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:20,147 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 02:45:21,151 INFO spawned: 'queue-worker_06' with pid 1040
+2022-06-06 02:45:22,153 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:22,153 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 02:45:23,159 INFO spawned: 'queue-worker_03' with pid 1047
+2022-06-06 02:45:24,163 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:24,163 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 02:45:25,167 INFO spawned: 'queue-worker_01' with pid 1054
+2022-06-06 02:45:26,170 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 02:45:26,170 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 02:45:27,175 INFO spawned: 'queue-worker_04' with pid 1061
+2022-06-06 02:45:28,177 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:16,899 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 03:45:17,904 INFO spawned: 'queue-worker_07' with pid 1073
+2022-06-06 03:45:17,904 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 03:45:18,908 INFO spawned: 'queue-worker_00' with pid 1080
+2022-06-06 03:45:18,909 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:19,923 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:19,924 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 03:45:19,924 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 03:45:20,929 INFO spawned: 'queue-worker_02' with pid 1087
+2022-06-06 03:45:20,930 INFO spawned: 'queue-worker_05' with pid 1088
+2022-06-06 03:45:22,925 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:22,925 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:22,926 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 03:45:23,930 INFO spawned: 'queue-worker_06' with pid 1101
+2022-06-06 03:45:24,934 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:24,935 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 03:45:25,937 INFO spawned: 'queue-worker_03' with pid 1108
+2022-06-06 03:45:26,940 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:26,940 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 03:45:27,945 INFO spawned: 'queue-worker_01' with pid 1115
+2022-06-06 03:45:28,951 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 03:45:28,951 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 03:45:29,963 INFO spawned: 'queue-worker_04' with pid 1122
+2022-06-06 03:45:30,966 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:19,665 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 04:45:19,680 INFO spawned: 'queue-worker_07' with pid 1134
+2022-06-06 04:45:20,683 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:20,683 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 04:45:21,688 INFO spawned: 'queue-worker_00' with pid 1141
+2022-06-06 04:45:22,697 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:22,698 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 04:45:22,707 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 04:45:23,712 INFO spawned: 'queue-worker_02' with pid 1148
+2022-06-06 04:45:23,715 INFO spawned: 'queue-worker_05' with pid 1149
+2022-06-06 04:45:25,698 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:25,698 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:25,699 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 04:45:26,701 INFO spawned: 'queue-worker_06' with pid 1162
+2022-06-06 04:45:27,703 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:27,703 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 04:45:28,715 INFO spawned: 'queue-worker_03' with pid 1169
+2022-06-06 04:45:29,744 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:29,745 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 04:45:30,743 INFO spawned: 'queue-worker_01' with pid 1176
+2022-06-06 04:45:31,746 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 04:45:31,746 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 04:45:32,751 INFO spawned: 'queue-worker_04' with pid 1183
+2022-06-06 04:45:33,754 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:21,446 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 05:45:22,451 INFO spawned: 'queue-worker_07' with pid 1195
+2022-06-06 05:45:23,465 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:23,465 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 05:45:24,478 INFO spawned: 'queue-worker_00' with pid 1202
+2022-06-06 05:45:25,495 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:25,495 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 05:45:25,496 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 05:45:26,498 INFO spawned: 'queue-worker_02' with pid 1209
+2022-06-06 05:45:26,500 INFO spawned: 'queue-worker_05' with pid 1210
+2022-06-06 05:45:28,463 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:28,464 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:28,464 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 05:45:29,468 INFO spawned: 'queue-worker_06' with pid 1223
+2022-06-06 05:45:30,485 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:30,486 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 05:45:31,494 INFO spawned: 'queue-worker_03' with pid 1230
+2022-06-06 05:45:32,506 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:32,506 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 05:45:33,510 INFO spawned: 'queue-worker_01' with pid 1237
+2022-06-06 05:45:34,553 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 05:45:34,553 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 05:45:35,558 INFO spawned: 'queue-worker_04' with pid 1244
+2022-06-06 05:45:36,560 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:24,228 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 06:45:25,233 INFO spawned: 'queue-worker_07' with pid 1256
+2022-06-06 06:45:26,253 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:26,253 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 06:45:27,257 INFO spawned: 'queue-worker_00' with pid 1263
+2022-06-06 06:45:28,281 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:28,281 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 06:45:28,281 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 06:45:29,286 INFO spawned: 'queue-worker_02' with pid 1270
+2022-06-06 06:45:29,289 INFO spawned: 'queue-worker_05' with pid 1271
+2022-06-06 06:45:31,248 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:31,248 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:31,249 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 06:45:32,253 INFO spawned: 'queue-worker_06' with pid 1284
+2022-06-06 06:45:33,257 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:33,258 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 06:45:34,263 INFO spawned: 'queue-worker_03' with pid 1291
+2022-06-06 06:45:35,275 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:35,275 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 06:45:36,280 INFO spawned: 'queue-worker_01' with pid 1298
+2022-06-06 06:45:37,329 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 06:45:37,329 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 06:45:38,333 INFO spawned: 'queue-worker_04' with pid 1305
+2022-06-06 06:45:39,336 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:27,023 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 07:45:28,027 INFO spawned: 'queue-worker_07' with pid 1317
+2022-06-06 07:45:29,029 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:29,029 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 07:45:30,034 INFO spawned: 'queue-worker_00' with pid 1324
+2022-06-06 07:45:31,067 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:31,068 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 07:45:31,068 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 07:45:32,072 INFO spawned: 'queue-worker_02' with pid 1331
+2022-06-06 07:45:32,075 INFO spawned: 'queue-worker_05' with pid 1332
+2022-06-06 07:45:34,032 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:34,033 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:34,033 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 07:45:35,030 INFO spawned: 'queue-worker_06' with pid 1345
+2022-06-06 07:45:36,031 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:36,032 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 07:45:37,036 INFO spawned: 'queue-worker_03' with pid 1352
+2022-06-06 07:45:38,091 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:38,092 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 07:45:39,096 INFO spawned: 'queue-worker_01' with pid 1359
+2022-06-06 07:45:40,102 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 07:45:40,102 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 07:45:41,107 INFO spawned: 'queue-worker_04' with pid 1366
+2022-06-06 07:45:42,109 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:29,799 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 08:45:30,804 INFO spawned: 'queue-worker_07' with pid 1378
+2022-06-06 08:45:31,807 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:31,807 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 08:45:32,812 INFO spawned: 'queue-worker_00' with pid 1385
+2022-06-06 08:45:33,855 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:33,855 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 08:45:33,856 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 08:45:34,860 INFO spawned: 'queue-worker_02' with pid 1392
+2022-06-06 08:45:34,861 INFO spawned: 'queue-worker_05' with pid 1393
+2022-06-06 08:45:36,786 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:36,786 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:36,786 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 08:45:37,791 INFO spawned: 'queue-worker_06' with pid 1406
+2022-06-06 08:45:38,809 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:38,809 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 08:45:39,814 INFO spawned: 'queue-worker_03' with pid 1413
+2022-06-06 08:45:40,865 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:40,865 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 08:45:41,869 INFO spawned: 'queue-worker_01' with pid 1420
+2022-06-06 08:45:42,871 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 08:45:42,871 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 08:45:43,876 INFO spawned: 'queue-worker_04' with pid 1427
+2022-06-06 08:45:44,878 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:32,508 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 09:45:33,517 INFO spawned: 'queue-worker_07' with pid 1439
+2022-06-06 09:45:34,519 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:34,520 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 09:45:35,524 INFO spawned: 'queue-worker_00' with pid 1446
+2022-06-06 09:45:36,570 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:36,570 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 09:45:36,571 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 09:45:37,575 INFO spawned: 'queue-worker_02' with pid 1453
+2022-06-06 09:45:37,578 INFO spawned: 'queue-worker_05' with pid 1454
+2022-06-06 09:45:39,517 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:39,517 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:39,517 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 09:45:40,521 INFO spawned: 'queue-worker_06' with pid 1467
+2022-06-06 09:45:41,528 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:41,528 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 09:45:42,533 INFO spawned: 'queue-worker_03' with pid 1474
+2022-06-06 09:45:43,567 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:43,568 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 09:45:44,569 INFO spawned: 'queue-worker_01' with pid 1481
+2022-06-06 09:45:45,572 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 09:45:45,573 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 09:45:46,577 INFO spawned: 'queue-worker_04' with pid 1488
+2022-06-06 09:45:47,580 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:35,253 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 10:45:36,257 INFO spawned: 'queue-worker_07' with pid 1504
+2022-06-06 10:45:37,261 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:37,261 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 10:45:38,264 INFO spawned: 'queue-worker_00' with pid 1511
+2022-06-06 10:45:38,303 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 10:45:39,305 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:39,309 INFO spawned: 'queue-worker_02' with pid 1518
+2022-06-06 10:45:39,310 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 10:45:40,313 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:40,317 INFO spawned: 'queue-worker_05' with pid 1525
+2022-06-06 10:45:42,267 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:42,267 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 10:45:43,271 INFO spawned: 'queue-worker_06' with pid 1532
+2022-06-06 10:45:44,273 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:44,274 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 10:45:45,278 INFO spawned: 'queue-worker_03' with pid 1539
+2022-06-06 10:45:46,303 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:46,303 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 10:45:47,291 INFO spawned: 'queue-worker_01' with pid 1546
+2022-06-06 10:45:48,294 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 10:45:48,295 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 10:45:49,300 INFO spawned: 'queue-worker_04' with pid 1553
+2022-06-06 10:45:50,303 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:38,014 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 11:45:38,994 INFO spawned: 'queue-worker_07' with pid 1565
+2022-06-06 11:45:39,997 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:39,998 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 11:45:40,071 INFO spawned: 'queue-worker_00' with pid 1572
+2022-06-06 11:45:41,074 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:41,074 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 11:45:41,082 INFO spawned: 'queue-worker_02' with pid 1579
+2022-06-06 11:45:42,085 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:42,085 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 11:45:43,090 INFO spawned: 'queue-worker_05' with pid 1586
+2022-06-06 11:45:45,011 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:45,011 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 11:45:46,016 INFO spawned: 'queue-worker_06' with pid 1593
+2022-06-06 11:45:47,038 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:47,038 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 11:45:48,042 INFO spawned: 'queue-worker_03' with pid 1600
+2022-06-06 11:45:49,046 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:49,047 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 11:45:50,050 INFO spawned: 'queue-worker_01' with pid 1607
+2022-06-06 11:45:51,057 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 11:45:51,057 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 11:45:52,061 INFO spawned: 'queue-worker_04' with pid 1614
+2022-06-06 11:45:53,063 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:40,770 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 12:45:40,819 INFO spawned: 'queue-worker_07' with pid 1626
+2022-06-06 12:45:41,822 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:41,822 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 12:45:41,839 INFO spawned: 'queue-worker_00' with pid 1633
+2022-06-06 12:45:42,841 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:42,842 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 12:45:43,846 INFO spawned: 'queue-worker_02' with pid 1640
+2022-06-06 12:45:44,851 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:44,851 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 12:45:45,856 INFO spawned: 'queue-worker_05' with pid 1647
+2022-06-06 12:45:47,766 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:47,766 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 12:45:48,771 INFO spawned: 'queue-worker_06' with pid 1654
+2022-06-06 12:45:49,808 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:49,808 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 12:45:50,805 INFO spawned: 'queue-worker_03' with pid 1661
+2022-06-06 12:45:51,808 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:51,808 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 12:45:52,813 INFO spawned: 'queue-worker_01' with pid 1668
+2022-06-06 12:45:53,819 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 12:45:53,819 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 12:45:54,824 INFO spawned: 'queue-worker_04' with pid 1675
+2022-06-06 12:45:55,826 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:42,574 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 13:45:42,587 INFO spawned: 'queue-worker_07' with pid 1687
+2022-06-06 13:45:43,589 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:43,589 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 13:45:44,593 INFO spawned: 'queue-worker_00' with pid 1694
+2022-06-06 13:45:45,603 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:45,603 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 13:45:46,607 INFO spawned: 'queue-worker_02' with pid 1701
+2022-06-06 13:45:47,624 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:47,624 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 13:45:48,629 INFO spawned: 'queue-worker_05' with pid 1708
+2022-06-06 13:45:50,535 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:50,535 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 13:45:51,540 INFO spawned: 'queue-worker_06' with pid 1715
+2022-06-06 13:45:52,549 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:52,550 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 13:45:53,554 INFO spawned: 'queue-worker_03' with pid 1722
+2022-06-06 13:45:54,575 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:54,575 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 13:45:55,587 INFO spawned: 'queue-worker_01' with pid 1729
+2022-06-06 13:45:56,591 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 13:45:56,591 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 13:45:57,596 INFO spawned: 'queue-worker_04' with pid 1736
+2022-06-06 13:45:58,599 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:44,319 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 14:45:45,324 INFO spawned: 'queue-worker_07' with pid 1806
+2022-06-06 14:45:46,329 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:46,329 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 14:45:47,334 INFO spawned: 'queue-worker_00' with pid 1813
+2022-06-06 14:45:48,350 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:48,350 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 14:45:49,355 INFO spawned: 'queue-worker_02' with pid 1820
+2022-06-06 14:45:50,367 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:50,367 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 14:45:51,372 INFO spawned: 'queue-worker_05' with pid 1827
+2022-06-06 14:45:53,261 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:53,261 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 14:45:54,265 INFO spawned: 'queue-worker_06' with pid 1834
+2022-06-06 14:45:55,297 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:55,297 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 14:45:56,301 INFO spawned: 'queue-worker_03' with pid 1841
+2022-06-06 14:45:57,326 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:57,326 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 14:45:58,331 INFO spawned: 'queue-worker_01' with pid 1848
+2022-06-06 14:45:59,362 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 14:45:59,363 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 14:46:00,367 INFO spawned: 'queue-worker_04' with pid 1855
+2022-06-06 14:46:01,370 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:45:47,078 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 15:45:48,068 INFO spawned: 'queue-worker_07' with pid 1867
+2022-06-06 15:45:49,071 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:45:49,071 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 15:45:50,076 INFO spawned: 'queue-worker_00' with pid 1874
+2022-06-06 15:45:51,090 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:45:51,091 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 15:45:52,095 INFO spawned: 'queue-worker_02' with pid 1881
+2022-06-06 15:45:53,106 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:45:53,106 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 15:45:54,111 INFO spawned: 'queue-worker_05' with pid 1888
+2022-06-06 15:45:55,997 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:45:55,998 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 15:45:57,002 INFO spawned: 'queue-worker_06' with pid 1895
+2022-06-06 15:45:58,039 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:45:58,039 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 15:45:59,042 INFO spawned: 'queue-worker_03' with pid 1902
+2022-06-06 15:46:00,112 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:46:00,113 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 15:46:01,116 INFO spawned: 'queue-worker_01' with pid 1909
+2022-06-06 15:46:02,118 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 15:46:02,118 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 15:46:03,123 INFO spawned: 'queue-worker_04' with pid 1916
+2022-06-06 15:46:04,126 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:45:49,811 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 16:45:50,815 INFO spawned: 'queue-worker_07' with pid 1928
+2022-06-06 16:45:51,836 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:45:51,837 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 16:45:52,833 INFO spawned: 'queue-worker_00' with pid 1935
+2022-06-06 16:45:53,835 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:45:53,835 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 16:45:54,840 INFO spawned: 'queue-worker_02' with pid 1942
+2022-06-06 16:45:55,859 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:45:55,859 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 16:45:56,864 INFO spawned: 'queue-worker_05' with pid 1949
+2022-06-06 16:45:58,743 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:45:58,743 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 16:45:59,748 INFO spawned: 'queue-worker_06' with pid 1956
+2022-06-06 16:46:00,821 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:46:00,821 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 16:46:01,825 INFO spawned: 'queue-worker_03' with pid 1963
+2022-06-06 16:46:02,850 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:46:02,850 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 16:46:03,855 INFO spawned: 'queue-worker_01' with pid 1970
+2022-06-06 16:46:04,862 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 16:46:04,862 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 16:46:05,867 INFO spawned: 'queue-worker_04' with pid 1977
+2022-06-06 16:46:06,869 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:45:52,555 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 17:45:53,559 INFO spawned: 'queue-worker_07' with pid 1989
+2022-06-06 17:45:54,577 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:45:54,578 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 17:45:55,570 INFO spawned: 'queue-worker_00' with pid 1996
+2022-06-06 17:45:56,572 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:45:56,573 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 17:45:57,579 INFO spawned: 'queue-worker_02' with pid 2003
+2022-06-06 17:45:58,607 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:45:58,607 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 17:45:59,612 INFO spawned: 'queue-worker_05' with pid 2010
+2022-06-06 17:46:01,487 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:46:01,487 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 17:46:02,492 INFO spawned: 'queue-worker_06' with pid 2017
+2022-06-06 17:46:03,560 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:46:03,561 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 17:46:04,565 INFO spawned: 'queue-worker_03' with pid 2024
+2022-06-06 17:46:05,601 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:46:05,602 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 17:46:06,606 INFO spawned: 'queue-worker_01' with pid 2031
+2022-06-06 17:46:07,608 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 17:46:07,608 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 17:46:08,613 INFO spawned: 'queue-worker_04' with pid 2038
+2022-06-06 17:46:09,616 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:45:55,297 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 18:45:56,301 INFO spawned: 'queue-worker_07' with pid 2050
+2022-06-06 18:45:57,305 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:45:57,306 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 18:45:58,309 INFO spawned: 'queue-worker_00' with pid 2057
+2022-06-06 18:45:59,315 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:45:59,315 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 18:46:00,320 INFO spawned: 'queue-worker_02' with pid 2064
+2022-06-06 18:46:01,346 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:46:01,346 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 18:46:02,350 INFO spawned: 'queue-worker_05' with pid 2071
+2022-06-06 18:46:04,227 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:46:04,227 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 18:46:05,232 INFO spawned: 'queue-worker_06' with pid 2078
+2022-06-06 18:46:06,302 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:46:06,302 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 18:46:07,307 INFO spawned: 'queue-worker_03' with pid 2085
+2022-06-06 18:46:08,346 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:46:08,346 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 18:46:09,349 INFO spawned: 'queue-worker_01' with pid 2092
+2022-06-06 18:46:10,351 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 18:46:10,351 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 18:46:11,356 INFO spawned: 'queue-worker_04' with pid 2099
+2022-06-06 18:46:12,358 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:45:58,048 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 19:45:59,046 INFO spawned: 'queue-worker_07' with pid 2111
+2022-06-06 19:46:00,049 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:46:00,049 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 19:46:01,053 INFO spawned: 'queue-worker_00' with pid 2118
+2022-06-06 19:46:02,087 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:46:02,087 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 19:46:03,092 INFO spawned: 'queue-worker_02' with pid 2125
+2022-06-06 19:46:04,101 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:46:04,102 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 19:46:05,106 INFO spawned: 'queue-worker_05' with pid 2132
+2022-06-06 19:46:06,980 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:46:06,981 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 19:46:07,985 INFO spawned: 'queue-worker_06' with pid 2139
+2022-06-06 19:46:09,053 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:46:09,054 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 19:46:10,058 INFO spawned: 'queue-worker_03' with pid 2146
+2022-06-06 19:46:11,083 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:46:11,083 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 19:46:12,088 INFO spawned: 'queue-worker_01' with pid 2153
+2022-06-06 19:46:13,095 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 19:46:13,095 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 19:46:14,100 INFO spawned: 'queue-worker_04' with pid 2160
+2022-06-06 19:46:15,102 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:00,807 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 20:46:01,800 INFO spawned: 'queue-worker_07' with pid 2172
+2022-06-06 20:46:02,802 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:02,803 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 20:46:03,808 INFO spawned: 'queue-worker_00' with pid 2179
+2022-06-06 20:46:04,832 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:04,832 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 20:46:05,837 INFO spawned: 'queue-worker_02' with pid 2186
+2022-06-06 20:46:06,846 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:06,846 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 20:46:07,849 INFO spawned: 'queue-worker_05' with pid 2193
+2022-06-06 20:46:09,723 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:09,723 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 20:46:10,728 INFO spawned: 'queue-worker_06' with pid 2200
+2022-06-06 20:46:11,799 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:11,800 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 20:46:12,811 INFO spawned: 'queue-worker_03' with pid 2207
+2022-06-06 20:46:13,834 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:13,834 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 20:46:14,838 INFO spawned: 'queue-worker_01' with pid 2214
+2022-06-06 20:46:15,843 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 20:46:15,843 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 20:46:16,848 INFO spawned: 'queue-worker_04' with pid 2221
+2022-06-06 20:46:17,851 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:03,533 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 21:46:04,537 INFO spawned: 'queue-worker_07' with pid 2233
+2022-06-06 21:46:05,540 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:05,541 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 21:46:06,545 INFO spawned: 'queue-worker_00' with pid 2240
+2022-06-06 21:46:07,578 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:07,579 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 21:46:08,583 INFO spawned: 'queue-worker_02' with pid 2247
+2022-06-06 21:46:09,591 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:09,591 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 21:46:10,595 INFO spawned: 'queue-worker_05' with pid 2254
+2022-06-06 21:46:12,483 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:12,483 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 21:46:13,488 INFO spawned: 'queue-worker_06' with pid 2261
+2022-06-06 21:46:14,550 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:14,550 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 21:46:15,554 INFO spawned: 'queue-worker_03' with pid 2268
+2022-06-06 21:46:16,592 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:16,592 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 21:46:17,594 INFO spawned: 'queue-worker_01' with pid 2275
+2022-06-06 21:46:18,597 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 21:46:18,597 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 21:46:19,602 INFO spawned: 'queue-worker_04' with pid 2282
+2022-06-06 21:46:20,604 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:06,293 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 22:46:07,298 INFO spawned: 'queue-worker_07' with pid 2294
+2022-06-06 22:46:08,301 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:08,301 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 22:46:09,305 INFO spawned: 'queue-worker_00' with pid 2301
+2022-06-06 22:46:10,327 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:10,328 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 22:46:11,332 INFO spawned: 'queue-worker_02' with pid 2308
+2022-06-06 22:46:12,347 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:12,347 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 22:46:13,352 INFO spawned: 'queue-worker_05' with pid 2315
+2022-06-06 22:46:15,277 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:15,277 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 22:46:16,281 INFO spawned: 'queue-worker_06' with pid 2322
+2022-06-06 22:46:17,336 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:17,337 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 22:46:18,341 INFO spawned: 'queue-worker_03' with pid 2329
+2022-06-06 22:46:19,351 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:19,351 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 22:46:20,355 INFO spawned: 'queue-worker_01' with pid 2336
+2022-06-06 22:46:21,383 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 22:46:21,383 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 22:46:22,395 INFO spawned: 'queue-worker_04' with pid 2343
+2022-06-06 22:46:23,397 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:09,051 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-06 23:46:10,056 INFO spawned: 'queue-worker_07' with pid 2355
+2022-06-06 23:46:11,072 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:11,073 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-06 23:46:12,076 INFO spawned: 'queue-worker_00' with pid 2362
+2022-06-06 23:46:13,099 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:13,099 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-06 23:46:14,101 INFO spawned: 'queue-worker_02' with pid 2369
+2022-06-06 23:46:15,104 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:15,104 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-06 23:46:16,109 INFO spawned: 'queue-worker_05' with pid 2376
+2022-06-06 23:46:18,038 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:18,039 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-06 23:46:19,043 INFO spawned: 'queue-worker_06' with pid 2383
+2022-06-06 23:46:20,105 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:20,105 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-06 23:46:21,110 INFO spawned: 'queue-worker_03' with pid 2390
+2022-06-06 23:46:22,114 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:22,114 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-06 23:46:23,119 INFO spawned: 'queue-worker_01' with pid 2397
+2022-06-06 23:46:24,157 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-06 23:46:24,157 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-06 23:46:25,161 INFO spawned: 'queue-worker_04' with pid 2404
+2022-06-06 23:46:26,164 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:11,817 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 00:46:12,821 INFO spawned: 'queue-worker_07' with pid 2416
+2022-06-07 00:46:13,846 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:13,846 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 00:46:14,849 INFO spawned: 'queue-worker_00' with pid 2423
+2022-06-07 00:46:15,860 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:15,861 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 00:46:16,859 INFO spawned: 'queue-worker_02' with pid 2430
+2022-06-07 00:46:17,862 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:17,862 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 00:46:18,867 INFO spawned: 'queue-worker_05' with pid 2437
+2022-06-07 00:46:20,795 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:20,795 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 00:46:21,800 INFO spawned: 'queue-worker_06' with pid 2444
+2022-06-07 00:46:22,879 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:22,879 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 00:46:23,884 INFO spawned: 'queue-worker_03' with pid 2451
+2022-06-07 00:46:24,887 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:24,887 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 00:46:25,892 INFO spawned: 'queue-worker_01' with pid 2458
+2022-06-07 00:46:26,929 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 00:46:26,929 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 00:46:27,934 INFO spawned: 'queue-worker_04' with pid 2465
+2022-06-07 00:46:28,936 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:14,598 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 01:46:15,603 INFO spawned: 'queue-worker_07' with pid 2477
+2022-06-07 01:46:16,605 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:16,606 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 01:46:17,601 INFO spawned: 'queue-worker_00' with pid 2484
+2022-06-07 01:46:18,605 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:18,605 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 01:46:19,599 INFO spawned: 'queue-worker_02' with pid 2491
+2022-06-07 01:46:20,602 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:20,602 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 01:46:21,606 INFO spawned: 'queue-worker_05' with pid 2498
+2022-06-07 01:46:23,556 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:23,556 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 01:46:24,561 INFO spawned: 'queue-worker_06' with pid 2505
+2022-06-07 01:46:25,603 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:25,603 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 01:46:26,602 INFO spawned: 'queue-worker_03' with pid 2512
+2022-06-07 01:46:27,606 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:27,606 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 01:46:28,609 INFO spawned: 'queue-worker_01' with pid 2519
+2022-06-07 01:46:29,675 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 01:46:29,675 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 01:46:30,680 INFO spawned: 'queue-worker_04' with pid 2526
+2022-06-07 01:46:31,683 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:17,375 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 02:46:18,359 INFO spawned: 'queue-worker_07' with pid 2539
+2022-06-07 02:46:19,360 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:19,361 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 02:46:20,365 INFO spawned: 'queue-worker_00' with pid 2546
+2022-06-07 02:46:21,371 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:21,371 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 02:46:22,376 INFO spawned: 'queue-worker_02' with pid 2553
+2022-06-07 02:46:23,380 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:23,380 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 02:46:24,385 INFO spawned: 'queue-worker_05' with pid 2560
+2022-06-07 02:46:26,322 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:26,322 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 02:46:27,327 INFO spawned: 'queue-worker_06' with pid 2567
+2022-06-07 02:46:28,356 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:28,357 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 02:46:29,362 INFO spawned: 'queue-worker_03' with pid 2574
+2022-06-07 02:46:30,374 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:30,375 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 02:46:31,379 INFO spawned: 'queue-worker_01' with pid 2581
+2022-06-07 02:46:32,469 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 02:46:32,469 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 02:46:33,473 INFO spawned: 'queue-worker_04' with pid 2588
+2022-06-07 02:46:34,475 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:20,155 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 03:46:21,145 INFO spawned: 'queue-worker_07' with pid 2600
+2022-06-07 03:46:22,147 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:22,147 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 03:46:23,134 INFO spawned: 'queue-worker_00' with pid 2607
+2022-06-07 03:46:24,137 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:24,138 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 03:46:25,140 INFO spawned: 'queue-worker_02' with pid 2614
+2022-06-07 03:46:26,143 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:26,144 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 03:46:27,148 INFO spawned: 'queue-worker_05' with pid 2621
+2022-06-07 03:46:29,099 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:29,099 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 03:46:30,104 INFO spawned: 'queue-worker_06' with pid 2628
+2022-06-07 03:46:31,155 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:31,155 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 03:46:32,144 INFO spawned: 'queue-worker_03' with pid 2635
+2022-06-07 03:46:33,146 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:33,147 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 03:46:34,151 INFO spawned: 'queue-worker_01' with pid 2642
+2022-06-07 03:46:35,247 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 03:46:35,247 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 03:46:36,252 INFO spawned: 'queue-worker_04' with pid 2649
+2022-06-07 03:46:37,255 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:22,909 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 04:46:23,891 INFO spawned: 'queue-worker_07' with pid 2661
+2022-06-07 04:46:24,893 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:24,894 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 04:46:25,893 INFO spawned: 'queue-worker_00' with pid 2668
+2022-06-07 04:46:26,896 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:26,896 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 04:46:27,901 INFO spawned: 'queue-worker_02' with pid 2675
+2022-06-07 04:46:28,907 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:28,907 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 04:46:29,912 INFO spawned: 'queue-worker_05' with pid 2682
+2022-06-07 04:46:31,868 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:31,869 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 04:46:32,873 INFO spawned: 'queue-worker_06' with pid 2689
+2022-06-07 04:46:33,905 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:33,906 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 04:46:34,910 INFO spawned: 'queue-worker_03' with pid 2696
+2022-06-07 04:46:35,914 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:35,914 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 04:46:36,919 INFO spawned: 'queue-worker_01' with pid 2703
+2022-06-07 04:46:38,010 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 04:46:38,011 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 04:46:39,015 INFO spawned: 'queue-worker_04' with pid 2710
+2022-06-07 04:46:40,018 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:25,672 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 05:46:26,651 INFO spawned: 'queue-worker_07' with pid 2722
+2022-06-07 05:46:27,653 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:27,653 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 05:46:28,657 INFO spawned: 'queue-worker_00' with pid 2729
+2022-06-07 05:46:29,661 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:29,661 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 05:46:30,665 INFO spawned: 'queue-worker_02' with pid 2736
+2022-06-07 05:46:31,673 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:31,673 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 05:46:32,678 INFO spawned: 'queue-worker_05' with pid 2743
+2022-06-07 05:46:34,640 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:34,640 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 05:46:35,645 INFO spawned: 'queue-worker_06' with pid 2750
+2022-06-07 05:46:36,666 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:36,667 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 05:46:37,671 INFO spawned: 'queue-worker_03' with pid 2757
+2022-06-07 05:46:38,692 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:38,693 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 05:46:39,697 INFO spawned: 'queue-worker_01' with pid 2764
+2022-06-07 05:46:40,794 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 05:46:40,795 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 05:46:41,799 INFO spawned: 'queue-worker_04' with pid 2771
+2022-06-07 05:46:42,802 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:28,400 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 06:46:29,405 INFO spawned: 'queue-worker_07' with pid 2783
+2022-06-07 06:46:30,410 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:30,411 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 06:46:31,415 INFO spawned: 'queue-worker_00' with pid 2790
+2022-06-07 06:46:32,425 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:32,426 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 06:46:33,430 INFO spawned: 'queue-worker_02' with pid 2797
+2022-06-07 06:46:34,436 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:34,436 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 06:46:35,441 INFO spawned: 'queue-worker_05' with pid 2804
+2022-06-07 06:46:37,402 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:37,403 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 06:46:38,407 INFO spawned: 'queue-worker_06' with pid 2811
+2022-06-07 06:46:39,428 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:39,429 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 06:46:40,431 INFO spawned: 'queue-worker_03' with pid 2818
+2022-06-07 06:46:41,454 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:41,454 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 06:46:42,459 INFO spawned: 'queue-worker_01' with pid 2825
+2022-06-07 06:46:43,556 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 06:46:43,556 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 06:46:44,561 INFO spawned: 'queue-worker_04' with pid 2832
+2022-06-07 06:46:45,563 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:31,151 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 07:46:32,156 INFO spawned: 'queue-worker_07' with pid 2844
+2022-06-07 07:46:33,160 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:33,160 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 07:46:34,165 INFO spawned: 'queue-worker_00' with pid 2851
+2022-06-07 07:46:35,171 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:35,172 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 07:46:36,176 INFO spawned: 'queue-worker_02' with pid 2858
+2022-06-07 07:46:37,186 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:37,186 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 07:46:38,190 INFO spawned: 'queue-worker_05' with pid 2865
+2022-06-07 07:46:40,156 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:40,157 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 07:46:41,161 INFO spawned: 'queue-worker_06' with pid 2872
+2022-06-07 07:46:42,168 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:42,168 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 07:46:43,173 INFO spawned: 'queue-worker_03' with pid 2879
+2022-06-07 07:46:44,221 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:44,222 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 07:46:45,225 INFO spawned: 'queue-worker_01' with pid 2886
+2022-06-07 07:46:46,291 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 07:46:46,291 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 07:46:47,296 INFO spawned: 'queue-worker_04' with pid 2893
+2022-06-07 07:46:48,299 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:33,884 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 08:46:34,888 INFO spawned: 'queue-worker_07' with pid 2905
+2022-06-07 08:46:35,930 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:35,931 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 08:46:36,928 INFO spawned: 'queue-worker_00' with pid 2912
+2022-06-07 08:46:37,929 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:37,930 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 08:46:38,933 INFO spawned: 'queue-worker_02' with pid 2919
+2022-06-07 08:46:39,946 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:39,946 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 08:46:40,951 INFO spawned: 'queue-worker_05' with pid 2926
+2022-06-07 08:46:42,913 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:42,913 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 08:46:43,918 INFO spawned: 'queue-worker_06' with pid 2933
+2022-06-07 08:46:44,932 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:44,932 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 08:46:45,936 INFO spawned: 'queue-worker_03' with pid 2940
+2022-06-07 08:46:46,981 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:46,981 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 08:46:47,986 INFO spawned: 'queue-worker_01' with pid 2947
+2022-06-07 08:46:49,058 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 08:46:49,058 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 08:46:50,063 INFO spawned: 'queue-worker_04' with pid 2954
+2022-06-07 08:46:51,065 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:36,647 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 09:46:37,652 INFO spawned: 'queue-worker_07' with pid 2966
+2022-06-07 09:46:38,685 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:38,685 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 09:46:39,690 INFO spawned: 'queue-worker_00' with pid 2973
+2022-06-07 09:46:40,709 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:40,709 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 09:46:41,699 INFO spawned: 'queue-worker_02' with pid 2980
+2022-06-07 09:46:42,702 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:42,703 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 09:46:43,708 INFO spawned: 'queue-worker_05' with pid 2987
+2022-06-07 09:46:45,671 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:45,672 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 09:46:46,676 INFO spawned: 'queue-worker_06' with pid 2994
+2022-06-07 09:46:47,683 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:47,683 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 09:46:48,687 INFO spawned: 'queue-worker_03' with pid 3001
+2022-06-07 09:46:49,730 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:49,731 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 09:46:50,735 INFO spawned: 'queue-worker_01' with pid 3008
+2022-06-07 09:46:51,823 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 09:46:51,823 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 09:46:52,828 INFO spawned: 'queue-worker_04' with pid 3015
+2022-06-07 09:46:53,830 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:39,413 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 10:46:40,418 INFO spawned: 'queue-worker_07' with pid 3027
+2022-06-07 10:46:41,446 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:41,446 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 10:46:42,441 INFO spawned: 'queue-worker_00' with pid 3034
+2022-06-07 10:46:43,443 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:43,443 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 10:46:44,448 INFO spawned: 'queue-worker_02' with pid 3041
+2022-06-07 10:46:45,452 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:45,452 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 10:46:46,457 INFO spawned: 'queue-worker_05' with pid 3048
+2022-06-07 10:46:48,439 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:48,439 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 10:46:49,444 INFO spawned: 'queue-worker_06' with pid 3055
+2022-06-07 10:46:50,447 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:50,447 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 10:46:51,452 INFO spawned: 'queue-worker_03' with pid 3062
+2022-06-07 10:46:52,491 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:52,491 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 10:46:53,496 INFO spawned: 'queue-worker_01' with pid 3069
+2022-06-07 10:46:54,587 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 10:46:54,587 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 10:46:55,591 INFO spawned: 'queue-worker_04' with pid 3076
+2022-06-07 10:46:56,594 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:42,174 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 11:46:43,177 INFO spawned: 'queue-worker_07' with pid 3088
+2022-06-07 11:46:44,202 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:44,203 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 11:46:45,192 INFO spawned: 'queue-worker_00' with pid 3095
+2022-06-07 11:46:46,195 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:46,196 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 11:46:47,200 INFO spawned: 'queue-worker_02' with pid 3102
+2022-06-07 11:46:48,207 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:48,207 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 11:46:49,212 INFO spawned: 'queue-worker_05' with pid 3109
+2022-06-07 11:46:51,201 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:51,201 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 11:46:52,205 INFO spawned: 'queue-worker_06' with pid 3116
+2022-06-07 11:46:53,209 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:53,209 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 11:46:54,213 INFO spawned: 'queue-worker_03' with pid 3123
+2022-06-07 11:46:55,234 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:55,235 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 11:46:56,239 INFO spawned: 'queue-worker_01' with pid 3130
+2022-06-07 11:46:57,354 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 11:46:57,354 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 11:46:58,359 INFO spawned: 'queue-worker_04' with pid 3137
+2022-06-07 11:46:59,361 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:46:44,885 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 12:46:45,890 INFO spawned: 'queue-worker_07' with pid 3149
+2022-06-07 12:46:46,904 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:46:46,904 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 12:46:47,910 INFO spawned: 'queue-worker_00' with pid 3156
+2022-06-07 12:46:48,917 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:46:48,918 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 12:46:49,912 INFO spawned: 'queue-worker_02' with pid 3163
+2022-06-07 12:46:50,915 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:46:50,915 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 12:46:51,920 INFO spawned: 'queue-worker_05' with pid 3170
+2022-06-07 12:46:53,912 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:46:53,912 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 12:46:54,917 INFO spawned: 'queue-worker_06' with pid 3177
+2022-06-07 12:46:55,925 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:46:55,926 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 12:46:56,930 INFO spawned: 'queue-worker_03' with pid 3184
+2022-06-07 12:46:57,955 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:46:57,955 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 12:46:58,960 INFO spawned: 'queue-worker_01' with pid 3191
+2022-06-07 12:47:00,074 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 12:47:00,075 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 12:47:01,079 INFO spawned: 'queue-worker_04' with pid 3198
+2022-06-07 12:47:02,082 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:46:47,639 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 13:46:48,643 INFO spawned: 'queue-worker_07' with pid 3210
+2022-06-07 13:46:49,653 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:46:49,654 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 13:46:50,642 INFO spawned: 'queue-worker_00' with pid 3217
+2022-06-07 13:46:51,644 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:46:51,644 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 13:46:52,642 INFO spawned: 'queue-worker_02' with pid 3224
+2022-06-07 13:46:53,646 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:46:53,646 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 13:46:54,651 INFO spawned: 'queue-worker_05' with pid 3231
+2022-06-07 13:46:56,642 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:46:56,642 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 13:46:57,647 INFO spawned: 'queue-worker_06' with pid 3238
+2022-06-07 13:46:58,665 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:46:58,666 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 13:46:59,672 INFO spawned: 'queue-worker_03' with pid 3245
+2022-06-07 13:47:00,702 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:47:00,703 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 13:47:01,707 INFO spawned: 'queue-worker_01' with pid 3252
+2022-06-07 13:47:02,816 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 13:47:02,817 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 13:47:03,822 INFO spawned: 'queue-worker_04' with pid 3259
+2022-06-07 13:47:04,824 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:46:50,399 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 14:46:51,387 INFO spawned: 'queue-worker_07' with pid 3283
+2022-06-07 14:46:52,391 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:46:52,391 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 14:46:53,396 INFO spawned: 'queue-worker_00' with pid 3290
+2022-06-07 14:46:54,399 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:46:54,399 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 14:46:55,404 INFO spawned: 'queue-worker_02' with pid 3297
+2022-06-07 14:46:56,422 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:46:56,422 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 14:46:57,427 INFO spawned: 'queue-worker_05' with pid 3304
+2022-06-07 14:46:59,390 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:46:59,391 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 14:47:00,395 INFO spawned: 'queue-worker_06' with pid 3311
+2022-06-07 14:47:01,418 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:47:01,419 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 14:47:02,429 INFO spawned: 'queue-worker_03' with pid 3318
+2022-06-07 14:47:03,457 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:47:03,458 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 14:47:04,462 INFO spawned: 'queue-worker_01' with pid 3325
+2022-06-07 14:47:05,564 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 14:47:05,564 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 14:47:06,568 INFO spawned: 'queue-worker_04' with pid 3332
+2022-06-07 14:47:07,571 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:46:53,127 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 15:46:54,130 INFO spawned: 'queue-worker_07' with pid 3344
+2022-06-07 15:46:55,134 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:46:55,135 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 15:46:56,136 INFO spawned: 'queue-worker_00' with pid 3351
+2022-06-07 15:46:57,139 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:46:57,139 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 15:46:58,144 INFO spawned: 'queue-worker_02' with pid 3358
+2022-06-07 15:46:59,155 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:46:59,156 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 15:47:00,160 INFO spawned: 'queue-worker_05' with pid 3365
+2022-06-07 15:47:02,152 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:47:02,152 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 15:47:03,157 INFO spawned: 'queue-worker_06' with pid 3372
+2022-06-07 15:47:04,163 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:47:04,163 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 15:47:05,168 INFO spawned: 'queue-worker_03' with pid 3379
+2022-06-07 15:47:06,193 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:47:06,193 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 15:47:07,198 INFO spawned: 'queue-worker_01' with pid 3386
+2022-06-07 15:47:08,327 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 15:47:08,327 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 15:47:09,332 INFO spawned: 'queue-worker_04' with pid 3393
+2022-06-07 15:47:10,335 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:46:55,851 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 16:46:56,856 INFO spawned: 'queue-worker_07' with pid 3405
+2022-06-07 16:46:57,870 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:46:57,870 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 16:46:58,869 INFO spawned: 'queue-worker_00' with pid 3412
+2022-06-07 16:46:59,871 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:46:59,872 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 16:47:00,876 INFO spawned: 'queue-worker_02' with pid 3419
+2022-06-07 16:47:01,917 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:47:01,917 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 16:47:02,929 INFO spawned: 'queue-worker_05' with pid 3426
+2022-06-07 16:47:04,875 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:47:04,875 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 16:47:05,880 INFO spawned: 'queue-worker_06' with pid 3433
+2022-06-07 16:47:06,890 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:47:06,890 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 16:47:07,895 INFO spawned: 'queue-worker_03' with pid 3440
+2022-06-07 16:47:08,915 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:47:08,916 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 16:47:09,921 INFO spawned: 'queue-worker_01' with pid 3447
+2022-06-07 16:47:11,058 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 16:47:11,058 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 16:47:12,063 INFO spawned: 'queue-worker_04' with pid 3454
+2022-06-07 16:47:13,065 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:46:58,558 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 17:46:59,553 INFO spawned: 'queue-worker_07' with pid 3466
+2022-06-07 17:47:00,556 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:47:00,557 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 17:47:01,561 INFO spawned: 'queue-worker_00' with pid 3473
+2022-06-07 17:47:02,573 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:47:02,573 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 17:47:03,577 INFO spawned: 'queue-worker_02' with pid 3480
+2022-06-07 17:47:04,626 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:47:04,626 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 17:47:05,631 INFO spawned: 'queue-worker_05' with pid 3487
+2022-06-07 17:47:07,559 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:47:07,559 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 17:47:08,565 INFO spawned: 'queue-worker_06' with pid 3494
+2022-06-07 17:47:09,590 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:47:09,590 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 17:47:10,594 INFO spawned: 'queue-worker_03' with pid 3501
+2022-06-07 17:47:11,611 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:47:11,611 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 17:47:12,616 INFO spawned: 'queue-worker_01' with pid 3508
+2022-06-07 17:47:13,755 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 17:47:13,755 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 17:47:14,760 INFO spawned: 'queue-worker_04' with pid 3515
+2022-06-07 17:47:15,762 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:01,294 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 18:47:02,297 INFO spawned: 'queue-worker_07' with pid 3527
+2022-06-07 18:47:03,298 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:03,299 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 18:47:04,303 INFO spawned: 'queue-worker_00' with pid 3534
+2022-06-07 18:47:05,327 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:05,328 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 18:47:06,332 INFO spawned: 'queue-worker_02' with pid 3541
+2022-06-07 18:47:07,376 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:07,376 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 18:47:08,381 INFO spawned: 'queue-worker_05' with pid 3548
+2022-06-07 18:47:10,294 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:10,295 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 18:47:11,305 INFO spawned: 'queue-worker_06' with pid 3555
+2022-06-07 18:47:12,342 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:12,342 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 18:47:13,347 INFO spawned: 'queue-worker_03' with pid 3562
+2022-06-07 18:47:14,359 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:14,359 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 18:47:15,362 INFO spawned: 'queue-worker_01' with pid 3569
+2022-06-07 18:47:16,496 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 18:47:16,497 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 18:47:17,501 INFO spawned: 'queue-worker_04' with pid 3576
+2022-06-07 18:47:18,503 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:04,003 INFO exited: queue-worker_07 (exit status 0; expected)
+2022-06-07 19:47:05,006 INFO spawned: 'queue-worker_07' with pid 3588
+2022-06-07 19:47:06,023 INFO success: queue-worker_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:06,023 INFO exited: queue-worker_00 (exit status 0; expected)
+2022-06-07 19:47:07,028 INFO spawned: 'queue-worker_00' with pid 3595
+2022-06-07 19:47:08,034 INFO success: queue-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:08,035 INFO exited: queue-worker_02 (exit status 0; expected)
+2022-06-07 19:47:09,039 INFO spawned: 'queue-worker_02' with pid 3602
+2022-06-07 19:47:10,090 INFO success: queue-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:10,091 INFO exited: queue-worker_05 (exit status 0; expected)
+2022-06-07 19:47:11,096 INFO spawned: 'queue-worker_05' with pid 3609
+2022-06-07 19:47:13,004 INFO success: queue-worker_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:13,004 INFO exited: queue-worker_06 (exit status 0; expected)
+2022-06-07 19:47:14,020 INFO spawned: 'queue-worker_06' with pid 3616
+2022-06-07 19:47:15,079 INFO success: queue-worker_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:15,079 INFO exited: queue-worker_03 (exit status 0; expected)
+2022-06-07 19:47:16,074 INFO spawned: 'queue-worker_03' with pid 3623
+2022-06-07 19:47:17,077 INFO success: queue-worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:17,078 INFO exited: queue-worker_01 (exit status 0; expected)
+2022-06-07 19:47:18,083 INFO spawned: 'queue-worker_01' with pid 3630
+2022-06-07 19:47:19,207 INFO success: queue-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-07 19:47:19,207 INFO exited: queue-worker_04 (exit status 0; expected)
+2022-06-07 19:47:20,212 INFO spawned: 'queue-worker_04' with pid 3637
+2022-06-07 19:47:21,215 INFO success: queue-worker_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
