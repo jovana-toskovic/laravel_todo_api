@@ -3,10 +3,9 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreTodoListRequest;
-use App\Http\Requests\UpdateUserRequest;
-use App\Http\Resources\TaskResource;
-use App\Http\Resources\TodoListResource;
+use App\Http\Requests\StoreTaskRequest;
+use App\Http\Requests\UpdateTaskRequest;
+use App\Http\Resources\ShortTaskResource;
 use App\Services\TaskService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -17,42 +16,57 @@ class TaskController extends Controller
     {
     }
 
-    public function index(Request $request): JsonResponse
+    public function index(Request $request, $id): JsonResponse
     {
-        $tasks = $this->taskService->findAllUserTasks($request->boolean('paginate'), 10);
-        return response()->json(TaskResource::collection($tasks)->response()->getData(true));
+        try{
+            $tasks = $this->taskService->findAllUserTasks($id, $request->boolean('paginate'), 10);
+            return response()->json(ShortTaskResource::collection($tasks)->response()->getData(true));
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()], 404);
+        }
     }
 
     public function show($taskId): JsonResponse
     {
-        $task = $this->taskService->find($taskId);
-        return response()->json(new TaskResource($task));
+        try{
+            $task = $this->taskService->find($taskId);
+            return response()->json(new ShortTaskResource($task));
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()], 404);
+        }
     }
 
-    public function store(StoreTodoListRequest $request, $id): JsonResponse
+    public function store(StoreTaskRequest $request, $id): JsonResponse
     {
         try{
             $data = $request->except(['tasks']);
             $data['user_id'] = $id;
-            $list = $this->taskService->create($data, $request->tasks);
-            return response()->json(new TodoListResource($list));
+            $list = $this->taskService->create($data);
+            return response()->json(new ShortTaskResource($list));
         } catch (\Exception $exception) {
             return response()->json(['error_message' => $exception->getMessage()], 404);
         }
-
     }
 
-    public function update(UpdateUserRequest $request, $id, $taskId): JsonResponse
+    public function update(UpdateTaskRequest $request, $id, $taskId): JsonResponse
     {
-        $data = $request->all();
-        $data['user_id'] = $id;
-        $task = $this->taskService->update($taskId, $data);
-        return response()->json(new TaskResource($task));
+        try{
+            $data = $request->all();
+            $data['user_id'] = $id;
+            $task = $this->taskService->update($taskId, $data);
+            return response()->json(new ShortTaskResource($task));
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()],  404);
+        }
     }
 
-    public function delete($taskId): JsonResponse
+    public function delete($id, $taskId): JsonResponse
     {
-        $this->taskService->delete($taskId);
-        return response()->json([], 204);
+        try{
+            $this->taskService->delete($taskId);
+            return response()->json([], 204);
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()],  404);
+        }
     }
 }

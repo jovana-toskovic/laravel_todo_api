@@ -40,6 +40,7 @@ class NotifyUserAboutDoneTasks extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
+                    ->line('These are done tasks for yesterday.')
                     ->line($this->doneTasksMessage);
     }
 

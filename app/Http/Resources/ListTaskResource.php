@@ -6,7 +6,7 @@ use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class TodoListResource extends JsonResource
+class ListTaskResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -18,10 +18,11 @@ class TodoListResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'title' => $this->title,
-            'description' => $this->description,
-            'user_id' => $this->user_id,
-            'tasks' => ShortTaskResource::collection($this->tasks)
+            'title' => $this->task->title,
+            'description' => $this->task->description,
+            'user_id' => $this->task->user_id,
+            'done' => $this->done,
+            'deadline' => $this->deadline
         ];
     }
 }

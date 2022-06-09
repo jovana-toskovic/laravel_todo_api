@@ -3,6 +3,7 @@
 namespace App\Repositories\Implementation;
 
 
+use App\Models\ListTask;
 use App\Models\Task;
 use App\Models\TodoList;
 use App\Repositories\BaseRepository;
@@ -24,14 +25,28 @@ class TaskRepository extends BaseRepository implements TaskRepositoryInterface
         parent::__construct($model);
     }
 
-    public function findAllUserTasks($id, $listId, $paginate, $perPage)
+    public function findAllUserListTasks($id, $listId, $paginate, $perPage): \Illuminate\Contracts\Pagination\LengthAwarePaginator
     {
-        return QueryBuilder::for(Task::class)
-            ->with(['user', 'lists' => function($query) use ($listId) { $query->where('list_id', $listId);}])
-            ->where('user_id', $id)
+        return QueryBuilder::for(ListTask::class)
+            ->with(['task' => function($query) use ($id) {
+                $query->where('user_id', $id);
+            }])
+            ->where('list_id', $listId)
             ->allowedFilters('title', 'done', 'deadline')
             ->allowedSorts('title', 'done', 'deadline')
             ->paginate(10);
     }
+
+    public function findAllUserTasks($userId, $paginate, $perPage): \Illuminate\Contracts\Pagination\LengthAwarePaginator
+    {
+        return QueryBuilder::for(Task::class)
+            ->with(['user'])
+            ->where('user_id', $userId)
+            ->allowedFilters('title')
+            ->allowedSorts('title')
+            ->paginate(10);
+    }
+
+
 
 }

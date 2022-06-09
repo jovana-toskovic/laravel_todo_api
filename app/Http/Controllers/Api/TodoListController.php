@@ -18,14 +18,22 @@ class TodoListController extends Controller
 
     public function index(Request $request, $id, $listId): JsonResponse
     {
-        $lists = $this->todoListService->findAllUserTodoLists($request->boolean('paginate'), 10, $listId);
-        return response()->json(TodoListResource::collection($lists)->response()->getData(true));
+        try{
+            $lists = $this->todoListService->findAllUserTodoLists($request->boolean('paginate'), 10, $listId);
+            return response()->json(TodoListResource::collection($lists)->response()->getData(true));
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()],404);
+        }
     }
 
     public function show($listId): JsonResponse
     {
-        $list = $this->todoListService->find($listId);
-        return response()->json(new TodoListResource($list));
+        try{
+            $list = $this->todoListService->find($listId);
+            return response()->json(new TodoListResource($list));
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()],404);
+        }
     }
 
     public function store(StoreTodoListRequest $request, $id): JsonResponse
@@ -43,15 +51,23 @@ class TodoListController extends Controller
 
     public function update(UpdateUserRequest $request, $id, $listId): JsonResponse
     {
-        $data = $request->except(['tasks']);
-        $data['user_id'] = $id;
-        $list = $this->todoListService->update($listId, $data, $request->tasks);
+        try{
+            $data = $request->except(['tasks']);
+            $data['user_id'] = $id;
+            $list = $this->todoListService->update($listId, $data, $request->tasks);
         return response()->json(new TodoListResource($list));
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()],404);
+        }
     }
 
-    public function delete($listId): JsonResponse
+    public function delete($id, $listId): JsonResponse
     {
-        $this->todoListService->delete($listId);
-        return response()->json([], 204);
+        try{
+            $this->todoListService->delete($listId);
+            return response()->json([], 204);
+        } catch (\Exception $exception) {
+            return response()->json(['error_message' => $exception->getMessage()],404);
+        }
     }
 }

@@ -48,4 +48,13 @@ class Task extends Model
         return $this->pivot->deadline;
     }
 
+    public function getDoneAttribute($value)
+    {
+        if($this->user->timezone) {
+            return (new Carbon($this->pivot->done))->setTimezone($this->user->timezone)->format('Y-m-d H:i:s');
+        }
+
+        return $this->pivot->done;
+    }
+
 }

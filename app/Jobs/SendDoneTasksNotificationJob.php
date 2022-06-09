@@ -21,7 +21,7 @@ class SendDoneTasksNotificationJob implements ShouldQueue
      *
      * @return void
      */
-    public function __construct(protected $date)
+    public function __construct()
     {
         //
     }
@@ -57,7 +57,7 @@ class SendDoneTasksNotificationJob implements ShouldQueue
             if(!empty($user->lists)) {
                 foreach ($user->lists as $list) {
                     if(!empty($list->tasks)) {
-                        $message .= " List $list->name: " . count($list->tasks);
+                        $message .= " List $list->title: " . count($list->tasks);
                     }
                 }
             }

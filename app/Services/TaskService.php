@@ -27,9 +27,14 @@ class TaskService
         return $this->taskRepository->update($id, $data);
     }
 
-    public function findAllUserTasks($paginate, $perPage)
+    public function findAllUserListTasks($userId, $listId, $paginate, $perPage)
     {
-        return $this->taskRepository->findAllUserTasks(auth()->user()->id, $paginate, $perPage);
+        return $this->taskRepository->findAllUserListTasks($userId, $listId, $paginate, $perPage);
+    }
+
+    public function findAllUserTasks($userId, $paginate, $perPage)
+    {
+        return $this->taskRepository->findAllUserTasks($userId, $paginate, $perPage);
     }
 
     public function delete(int $id): bool
