@@ -26,7 +26,7 @@ class Task extends Model
      *
      * @var array
      */
-    protected $appends = ['deadline'];
+    protected $appends = ['deadline', 'done'];
 
     public function user()
     {
@@ -35,7 +35,7 @@ class Task extends Model
 
     public function lists()
     {
-        return $this->belongsToMany(TodoList::class, 'lists_tasks', 'task_id')
+        return $this->belongsToMany(TodoList::class, 'lists_tasks', 'task_id', 'list_id')
             ->withPivot(['deadline', 'done']);
     }
 

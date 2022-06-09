@@ -22,7 +22,7 @@ RUN cp -R /app/docker/supervisor-services/* /opt/docker/etc/supervisor.d/
 
 # If you need to have cronjobs uncomment this line and add jobs to docker/crontab file
 # IMPORTANT! Make sure to have an empty line at the end of crontab file otherwise this command will fail!
-# RUN crontab docker/crontab
+#RUN crontab docker/crontab
 
 RUN chown -R nginx:nginx /app
 RUN chmod +x /app/docker/entrypoint.sh

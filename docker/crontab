@@ -2,4 +2,4 @@
 # IMPORTANT! Make sure that there's a newline at the end of this file!
 
 # Run "php artisan schedule:run"
-* * * * * /usr/local/bin/php /var/www/html/artisan schedule:run >> /dev/null 2>&1
+* * * * * /usr/local/bin/php /app/artisan schedule:run >> /dev/null 2>&1

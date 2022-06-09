@@ -27,7 +27,7 @@ class TaskRepository extends BaseRepository implements TaskRepositoryInterface
     public function findAllUserTasks($id, $listId, $paginate, $perPage)
     {
         return QueryBuilder::for(Task::class)
-            ->with(['user', 'lists' =>  function($query) use ($listId) { $query->where('list_id', $listId);}])
+            ->with(['user', 'lists' => function($query) use ($listId) { $query->where('list_id', $listId);}])
             ->where('user_id', $id)
             ->allowedFilters('title', 'done', 'deadline')
             ->allowedSorts('title', 'done', 'deadline')
