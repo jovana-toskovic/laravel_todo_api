@@ -14,6 +14,7 @@ yarn-error.log
 /.idea
 /.vscode
 /db
-.supervisord.log
-.supervisord.pid
+supervisord.log
+supervisord.pid
+
 
